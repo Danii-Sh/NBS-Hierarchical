@@ -2,6 +2,11 @@
 This work is my implementation of a Nash bargaining solution framework, applied to 
 network interaction between a hierarchical multi-tier content delivery network.
 It uses an exhaustive search routine to solve different scenarios of server interactions.
+The Hierarchy model is defined as interaction between a Content Provider, A trasmit network and
+an Access network at the lowest tier which provides the content to end user. This image represents the model:
+
+![alt text](https://github.com/Danii-Sh/NBS-Hierarchical/blob/a8756bee75d4edf1e4f08801b4c176cc93a523b5/1.jpg)
+
 A benchmark of selfish operation is done using extensive form game.
 The next codes entail different cooperation and bargaining situations, each resembling 
 real server user interactions.
